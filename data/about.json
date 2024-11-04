@@ -1,0 +1,20 @@
+{
+    "title": "About Us",
+    "description": "Information About Our Team",
+    "team": [
+        {
+            "name": "Tia Hasna Humayra",
+            "nim": "1101213479",
+            "email": "tiahasna305@gmail.com",
+            "instagram": "@tiasnaa_",
+            "image": "tia.jpg"
+        },
+        {
+            "name": "Santana Kiana Winarta",
+            "nim": "1101203466",
+            "email": "antanakiana0402@gmail.com",
+            "instagram": "@hi_sanssss04",
+            "image": "santana.jpg"
+        }
+    ]
+}

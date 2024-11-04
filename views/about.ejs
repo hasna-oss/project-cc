@@ -1,0 +1,26 @@
+<%- include('header') %>
+<link rel="stylesheet" href="/styles.css">
+<div class="container">
+  <aside>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/about">About</a></li>
+    </ul>
+  </aside>
+  <main>
+    <h1><%= data.title %></h1>
+    <p><%= data.description %></p>
+    <ul>
+      <% data.team.forEach(member => { %>
+        <li>
+          <img src="/images/<%= member.image %>" alt="<%= member.name %>" class="member-img">
+          <h2><%= member.name %></h2>
+          <p>NIM: <%= member.nim %></p>
+          <p>Email: <%= member.email %></p>
+          <p>Instagram: <%= member.instagram %></p>
+        </li>
+      <% }) %>
+    </ul>
+  </main>
+</div>
+<%- include('footer') %>
